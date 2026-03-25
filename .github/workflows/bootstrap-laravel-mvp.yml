@@ -21,12 +21,10 @@ jobs:
         with:
           php-version: "8.3"
           tools: composer:v2
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
 
       - name: Configure git
         run: |
